@@ -30,6 +30,6 @@ using namespace std;
 // SC - O(1) 
 
 int main(){
-    vector<int> bills = {1, 5, 3, 3, 4};
+    vector<int> bills = {5, 5, 5, 10, 20};
     cout << lemonadeChange(bills);
 }
