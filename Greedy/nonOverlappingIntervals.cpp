@@ -24,7 +24,7 @@ int nonOverlapIntervals(vector<vector<int>> &arr, int n){
 
 int main(){
     int n = 4;
-    vector<vector<int>> arr = {{1,2},{2,3},{33,14},{1,3}};
+    vector<vector<int>> arr = {{1,2},{2,3},{3,4},{1,3}};
     cout << nonOverlapIntervals(arr, n);
 }
 
